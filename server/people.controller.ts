@@ -1,6 +1,5 @@
 // @ts-nocheck
 
-import { db } from "./firebase";
 import { Person } from "../common/types";
 
 export const addPerson = async (netid: string, person: Person) => {
